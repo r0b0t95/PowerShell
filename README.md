@@ -13,6 +13,9 @@
 ```powershell
 <#
  Robert Chaves Perez (r0b0t95) 2023
+
+ use from C:\Windows\System32
+ and you can access from any directory
 #>
 
 param(
@@ -34,6 +37,3 @@ if(-Not [string]::IsNullOrEmpty($url) -and -Not [string]::IsNullOrEmpty($file)){
 
 }
 ```
-
-use from C:\Windows\System32
-and you can access from any directory
